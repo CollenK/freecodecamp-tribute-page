@@ -1,0 +1,101 @@
+body {
+  overflow-x: hidden;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background: url("https://c1.staticflickr.com/3/2545/3996651664_0d3dc3f03e_o.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+
+/* Typography */
+
+p {
+  font-size: 1.2em;
+}
+
+.list-group-item {
+  font-size: 1.2em;
+}
+
+.badge {
+  font-size: 14px;
+}
+
+.padding-20px {
+  padding: 0 20px 0 20px;
+}
+
+
+/* Animated scroll down arrow to be added after learning JS */
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  width: 120px;
+  margin-left: -60px;
+  bottom: 10px;
+}
+
+.scroll-down a {
+  color: white;
+}
+
+
+/* Custom List group */
+
+.list-group-item {
+  border: none;
+}
+
+.badge-green {
+  background-color: green;
+}
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+  max-width: 100px;
+}
+
+hr.medium {
+  max-width: 350px;
+}
+
+
+/* Custom button */
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-group-lg>.btn,
+.btn-lg {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  background-color: grey;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: grey;
+  filter: brightness(85%);
+}
+
+.container-fluid {
+  margin: 0 -15px 0 -15px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
